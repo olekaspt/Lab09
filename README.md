@@ -33,6 +33,14 @@ Press 6 To Print out Adjacency Matrix
 Press 7 to quit.
 ```
 
+To dynamically allocate a 2D array use this code (https://stackoverflow.com/questions/936687/how-do-i-declare-a-2d-array-in-c-using-new)
+
+```c++
+int** a = new int*[rowCount];
+for(int i = 0; i < rowCount; ++i)
+    a[i] = new int[colCount];
+```
+
 1.	Use your test program to test all member functions and ensure the class is working correctly. Check both for positive and negative cases (e.g. removing an edge which is not present in the graph). 
 1.	Provide a methodology to read in an adjacency matrix to initialize the graph object.  See previous lab where file was read in (towers of Hannoi).  Can be a specific  option MyExe.exe -f file.txt 
 Include in your submission a sample graph that is interesting, say at least 10 nodes, and about 15-20 edges.
