@@ -36,9 +36,9 @@ Press 7 to quit.
 To dynamically allocate a 2D array use this code (https://stackoverflow.com/questions/936687/how-do-i-declare-a-2d-array-in-c-using-new)
 
 ```c++
-int** a = new int*[rowCount];
-for(int i = 0; i < rowCount; ++i)
-    a[i] = new int[colCount];
+int nodes = 100;
+vector< vector<int> > f(nodes, vector<int>(nodes, 0));
+f[3][2] = 1; // use it like arrays
 ```
 
 1.	Use your test program to test all member functions and ensure the class is working correctly. Check both for positive and negative cases (e.g. removing an edge which is not present in the graph). 
