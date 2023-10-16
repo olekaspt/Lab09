@@ -1,5 +1,8 @@
 # Lab09
 
+Must follow standards cited here:
+https://github.com/olekaspt/LabStandards/blob/main/README.md
+
 ## Objective
 The objective of this lab is to explore creating and traversing graphs
 
