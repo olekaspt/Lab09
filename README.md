@@ -27,6 +27,11 @@ In your lab report discuss your design for the internal structure for storing ve
 Prompt the user for which class method to invoke.  This may look like:
 
 ```
+How many nodes are in graph?
+<get input>
+
+And then show a output like this?
+
 Press 1 to add an edge to graph.
 Press 2 remove an edge from graph.
 Press 3 Find an edge in the graph.
@@ -36,7 +41,7 @@ Press 6 To Print out Adjacency Matrix
 Press 7 to quit.
 ```
 
-To dynamically allocate a 2D array use this code (https://stackoverflow.com/questions/936687/how-do-i-declare-a-2d-array-in-c-using-new)
+To dynamically allocate a 2D array, you can just do sometthing like this.
 
 ```c++
 int nodes = 100;
