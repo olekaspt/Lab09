@@ -41,7 +41,7 @@ Press 6 To Print out Adjacency Matrix
 Press 7 to quit.
 ```
 
-To dynamically allocate a 2D array, you can just do sometthing like this.
+One way To dynamically allocate a 2D array use this code (https://stackoverflow.com/questions/936687/how-do-i-declare-a-2d-array-in-c-using-new)
 
 ```c++
 int nodes = 100;
