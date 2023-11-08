@@ -15,7 +15,7 @@ The class should have the following methods fully implemented.
 *	Constructor – This should have an overload indicating the number of vertices in the graph.
 *	addEdge(i,j) – Add the edge (i,j) to E.
 *	removeEdge(i,j) – Remove the edge (i,j) from E.
-*		hasEdge(i,j) – Check if the edge (i,j) ∈ E.
+*	hasEdge(i,j) – Check if the edge (i,j) ∈ E.
 *	outEdges(i) – Return a list of all integers j such that edge (i,j) ∈ E.
 *	inEdges(i) – Return a list of all integers j such that edge (j,i) ∈ E.
 *	PrintOutAdjacencyMatrix
