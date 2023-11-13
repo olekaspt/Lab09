@@ -19,6 +19,8 @@ The class should have the following methods fully implemented.
 *	outEdges(i) – Return a list of all integers j such that edge (i,j) ∈ E.
 *	inEdges(i) – Return a list of all integers j such that edge (j,i) ∈ E.
 *	PrintOutAdjacencyMatrix
+*	DepthFirstSearch(i,j) - where i is the start node, and j is target.  This will return a struct\class that contains a bool if found, and string that traces the path of nodes searched.
+*	BreadthFirstSearch(i,j) - where i is the start node, and j is target.  This will return a struct\class that contains a bool if found, and string that traces the path of nodes searched.
 *	Destructor
 In your lab report discuss your design for the internal structure for storing vertices and edges.
 
