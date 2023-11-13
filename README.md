@@ -60,7 +60,7 @@ Provide 2 Unit Tests for AT LEAST every method mentioned in Task 1 (except destr
 
 ## Lab Submission
 1. Include all source code from all tasks, input and output files (if any), and any special instructions to compile in a single tar file.
-1. A sample graph of a reasonable sized graph (~8 edges) in a adj matrix txt file.  This can be used for testing by the TA
+1. A sample graph of a reasonable sized graph (10 nodes, with about ~16 edges) in a adj matrix txt file.  This can be used for testing by the TA
 1. Participation Rubric And Lab Report
 
 
